@@ -1,14 +1,14 @@
-import { AppPage } from './app.po';
+import { Angular2D3V4Page } from './app.po';
 
-describe('my-app App', () => {
-  let page: AppPage;
+describe('angular2-d3-v4 App', function() {
+  let page: Angular2D3V4Page;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new Angular2D3V4Page();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });
