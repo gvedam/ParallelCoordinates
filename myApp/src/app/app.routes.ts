@@ -3,7 +3,7 @@ import { Routes, RouterModule }        from '@angular/router';
 import { HomeComponent }               from './home/home.component';
 
 const appRoutes: Routes = [
-  { path: 'chart', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: '**', redirectTo: '' }
 ];
 
